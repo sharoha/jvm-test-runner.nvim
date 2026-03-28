@@ -1,0 +1,2 @@
+./tests/kotlin-test-for-lsp/.gradle/*
+./tests/kotlin-test-for-lsp/build/*

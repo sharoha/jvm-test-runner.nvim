@@ -1,9 +1,3 @@
-local M = {}
-
-function M.setup(opts)
-    local group = vim.api.nvim_create_augroup("jvm_test_executor", { clear = true })
-
-end
 
 vim.api.nvim_create_user_command("JvmGetRegisteredTest", function()
     require("core").find_tests()
