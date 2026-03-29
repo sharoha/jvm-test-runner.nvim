@@ -1,12 +1,10 @@
+local config = require("core.config")
+
 local M = {}
 
-local config = {}
-
 function M.setup(opts)
-    config = opts
+    config.setup(opts)
 end
-
-print(config)
 
 function M.find_tests()
     vim.notify("Find tests has been called")
