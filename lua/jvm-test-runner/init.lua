@@ -1,4 +1,4 @@
-local config = require("core.config")
+local config = require("jvm-test-runner.config")
 
 local M = {}
 
@@ -17,4 +17,5 @@ end
 function M.run_current_test()
     vim.notify("Run current test has been called")
 end
+
 return M
